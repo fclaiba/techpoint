@@ -1,0 +1,620 @@
+/* HOME */
+.img-main{
+    background-image: url("/img/img-first.svg");
+    height: 1500px;
+    width: auto;
+    
+}
+
+header nav a img{
+    width: 70px;
+}
+
+section div.section-bg-color{
+    background:  linear-gradient(174.4deg,
+    #28272C 4.79%, #451D66 24.24%, rgba(76,
+    0, 199, 0.87) 52.7%, #000000 95.39%);
+    width: 100%;
+    height: 1280px;
+}
+
+.btn-head:hover{
+    box-shadow: 0px 0px 12px rgb(194, 0, 253)
+}
+
+.card-home:hover{
+    box-shadow: 0px 0px 12px rgb(194, 0, 253)
+}
+
+.titulo{
+    font-size: 30px;
+    line-height: 38px;
+}
+
+.titulo-secundario{
+    font-size: 15px;
+    line-height: 10px;
+}
+
+.titulo-bold{
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.card-title-home{
+    color: white;
+    font-size: 50px;
+    margin-top: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.title-limpiezas{
+    font-size: 48px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.card-text-home{
+    font-size: 16px;
+    max-width: 80%;
+    margin-left: 25px;
+}
+
+.precio-card-home{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.card-home{
+    background-color: rgba(55, 52, 52, 0.55);
+    border-radius: 30px;
+    padding-bottom: 50px;
+    max-width: 400px;
+}
+
+.linea-sep-card{
+    border: white solid 2px;
+    width: 40px;
+}
+
+.linea-sep-card-limpieza{
+    border: white solid 3px;
+    width: 40px;
+    opacity: 1;
+    margin-right: 60px;
+}
+
+
+
+.btn-head{
+    width: 180px;
+    height: 48px;
+    background: linear-gradient(90deg, #1B1B43 2.5%,
+    #5D21C3 51.25%, #3B1D81 100%);
+    border-radius: 30px;
+    border:none;
+}
+
+.light-prog{
+max-width: 230px;
+}
+
+.titulo-quienes-somos{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 28px;
+}
+
+/* EQUIPOS */
+
+.section-bg-color-equipos{
+    background: rgb(0,0,0);
+    background: linear-gradient(169deg, rgba(0,0,0,1) 9%, rgba(180,3,49,1) 49%, rgba(145,72,117,1) 69%, rgba(45,26,67,1) 100%);
+}
+
+.card-equipos{
+    background-color: rgba(55, 52, 52, 0.55);
+}
+
+.title-equipos{
+    font-size: 48px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+.img-main-equipos{
+    background-image: url("/img/img-equipos.svg");
+    height: 600px;
+}
+
+.card-equipos:hover{
+    box-shadow: 0px 0px 12px rgb(194, 0, 253)
+}
+
+.card-title{
+    height: 90px;
+}
+
+
+/* LOGIN */
+
+.bg-login{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 5%, rgba(194,21,183,1) 40%, rgba(34,29,191,1) 60%, rgba(0,0,0,1) 95%);
+}
+
+
+/* REGISTER */
+
+.card-register{
+    background-color: rgba(55, 52, 52, 0.55);
+    border-radius: 15px;
+}
+
+.bg-image-register{
+    background-image: url('/img/img-register.jpg');
+    background-position: 50% 50%;
+}
+/* CARRITO */
+
+.section-bg-color-carrito{
+    background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,0.9528186274509804) 0%, rgba(137,1,255,1) 23%, rgba(0,165,250,1) 50%, rgba(180,0,250,1) 77%, rgba(0,0,0,0.9556197478991597) 100%);
+}
+
+.card-carrito:hover{
+    box-shadow: 0px 0px 40px rgb(194, 0, 253)
+}
+
+.card-carrito{
+    background-color: rgba(55, 52, 52, 0.55);
+}
+
+.borrar-producto:hover{
+    color: rgb(248, 65, 65) !important;
+}
+
+.carrito-trash{
+    color: #cecece;
+}
+
+.img-productos-carrito{
+    display: none;
+}
+
+/* Create Edit */
+.section-bg-color-modificar{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.9528186274509804) 0%, rgba(76,0,142,1) 16%, rgba(0,250,247,1) 50%, rgba(76,0,142,1) 84%, rgba(0,0,0,0.9640231092436975) 100%);
+    }
+/* MEDIA QUERY */
+
+@media(min-width:320px){
+    .card-title-home{
+        font-size: 45px;
+    }
+}
+
+@media(min-width:768px){
+    .card-text-home{
+        margin-left: 30px;
+    }
+
+    .style-nav{
+        font-size: 13px;
+    }
+    .img-nosotros{
+        max-width: 65%;
+    }
+
+    .section-limpiezas{
+        margin-left: 100px;
+        margin-top: 50px;
+        margin-bottom: 150px;
+    }
+
+    .quienes-somos{
+        padding-top: 40px;
+    }
+
+    .card-home{
+        margin-right: 15px;
+        height: 45vh;
+        max-width: 300px;
+    }
+
+    .linea-sep-card-limpieza{
+        width: 45px;
+    }
+
+    .titulo-quienes-somos{
+        font-size: 40px;
+    }
+
+    .title-limpiezas{
+        font-size: 68px;
+    }
+
+    section div.section-bg-color{
+        height: 1000px;
+    }
+
+
+    /*login*/
+
+    .image{
+        width: 550px;
+        
+    }
+    
+    .card-login{
+        display: flex;
+        justify-content: center;
+    }
+
+    /*carrito*/
+
+    .img-productos-carrito{
+        display: flex;
+    }
+} 
+
+@media(min-width:992px){
+.img-nosotros {
+    max-width: 100%;
+}
+.quienes-somos{
+        padding-top: 120px;
+    }
+
+.card-home{
+    height: 45vh;
+}
+    /* CARRITO */
+
+.h-custom{
+    height: 100vh !important;
+}
+section div.section-bg-color{
+    height: 800px;
+}
+
+
+
+}
+
+
+@media(min-width:1200px){
+    .card-home{
+        height: 60vh;
+        max-width: 450px;
+    }
+    .titulo{
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .titulo-bold{
+        font-size: 70px;
+        line-height: 78px;
+    }
+    .titulo-secundario{
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .section-limpiezas{
+    margin-bottom: 330px;
+    }
+
+    .title-limpiezas{
+        font-size: 90px;
+    }
+    .card-text-home{
+        margin-left: 30px;
+    }
+
+    .linea-sep-card-limpieza{
+        max-width: 5%;
+        
+    }
+
+    .titulo-quienes-somos{
+        font-size: 46px;
+    }
+
+    /*Login*/
+    .bg-login{
+        height: 500px;}
+
+}
+
+
+
+/*********detalle producto*******/
+
+
+
+.section-bg-color-equipoUno {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 76, 250, 1) 49%, rgba(0, 0, 0, 1) 100%);
+}
+
+img {
+    max-width: 100%;
+}
+
+/* .preview {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+} */
+
+@media screen and (max-width: 996px) {
+    .preview {
+        margin-bottom: 20px;
+    }
+}
+
+.preview-pic {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.preview-thumbnail.nav-tabs {
+    border: none;
+    margin-top: 15px;
+}
+
+.preview-thumbnail.nav-tabs li {
+    width: 18%;
+    margin-right: 2.5%;
+}
+
+.preview-thumbnail.nav-tabs li img {
+    max-width: 100%;
+    display: block;
+}
+
+.preview-thumbnail.nav-tabs li a {
+    padding: 0;
+    margin: 0;
+}
+
+.preview-thumbnail.nav-tabs li:last-of-type {
+    margin-right: 0;
+}
+
+.tab-content {
+    overflow: hidden;
+}
+
+.tab-content img {
+    width: 100%;
+    -webkit-animation-name: opacity;
+    animation-name: opacity;
+    -webkit-animation-duration: .3s;
+    animation-duration: .3s;
+}
+
+.card-equipoUno {
+    margin-top: 50px;
+    background: #eee;
+    padding: 3em;
+    line-height: 1.5em;
+}
+
+@media screen and (min-width: 997px) {
+    .wrapper {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+.details {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.colors {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.product-title,
+.price,
+.sizes,
+.colors {
+    text-transform: UPPERCASE;
+    font-weight: bold;
+}
+
+.checked,
+.price span {
+    color: #02aefd;
+}
+
+.product-title,
+.rating,
+.product-description,
+.price,
+.vote,
+.sizes {
+    margin-bottom: 15px;
+}
+
+.product-title {
+    margin-top: 0;
+}
+
+.size {
+    margin-right: 10px;
+}
+
+.size:first-of-type {
+    margin-left: 40px;
+}
+
+.color {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    height: 2em;
+    width: 2em;
+    border-radius: 2px;
+}
+
+.color:first-of-type {
+    margin-left: 20px;
+}
+
+/* .add-to-cart,
+.like {
+    background: #ff9f1a;
+    padding: 1.2em 1.5em;
+    border: none;
+    text-transform: UPPERCASE;
+    font-weight: bold;
+    color: #fff;
+    -webkit-transition: background .3s ease;
+    transition: background .3s ease;
+} */
+
+.add-to-cart:hover,
+.like:hover {
+    background: #b36800;
+    color: #fff;
+}
+
+.not-available {
+    text-align: center;
+    line-height: 2em;
+}
+
+.not-available:before {
+    font-family: fontawesome;
+    content: "\f00d";
+    color: #fff;
+}
+
+.orange {
+    background: #ff9f1a;
+}
+
+.green {
+    background: #85ad00;
+}
+
+.blue {
+    background: #0076ad;
+}
+
+.tooltip-inner {
+    padding: 1.3em;
+}
+
+@-webkit-keyframes opacity {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(3);
+        transform: scale(3);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(3);
+        transform: scale(3);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+/*# sourceMappingURL=style.css.map */
+
+/*vista profile*/
+
+body{
+    margin-top:20px;
+    color: #1a202c;
+    text-align: left;
+    background-color: #e2e8f0;    
+}
+.main-body {
+    padding: 15px;
+}
+.card {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+}
+
+.card-profile {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1rem;
+}
+
+.gutters-sm {
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+.gutters-sm>.col, .gutters-sm>[class*=col-] {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.mb-3, .my-3 {
+    margin-bottom: 1rem!important;
+}
+
+.bg-gray-300 {
+    background-color: #e2e8f0;
+}
+.h-100 {
+    height: 100%!important;
+}
+.shadow-none {
+    box-shadow: none!important;
+}
+
+.btn-profile{
+    background-color:rgb(158, 0, 0);
+}
